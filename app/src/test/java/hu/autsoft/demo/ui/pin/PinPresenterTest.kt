@@ -3,7 +3,7 @@ package hu.autsoft.demo.ui.pin
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.verify
 import hu.autsoft.demo.ClientPinValidator
-import hu.autsoft.demo.MockPinValidator
+import hu.autsoft.demo.mock.MockPinValidator
 import hu.autsoft.hwsw.mostoha.pin.R
 import org.junit.Before
 import org.junit.Test
