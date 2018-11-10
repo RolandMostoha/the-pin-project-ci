@@ -32,6 +32,24 @@ jobs:
       - run:
           name: Build Debug
           command: ./gradlew assembleDebug assembleAndroidTest
+
+      # Firebase Test Lab
+      - run:
+          name: Export Google Cloud Service key environment variable
+          command: echo 'export GCLOUD_SERVICE_KEY="$GCLOUD_SERVICE_KEY"' >> $BASH_ENV
+      - run:
+          name: Decode Google Cloud credentials
+          command: echo $GCLOUD_SERVICE_KEY | base64 -di > ${HOME}/client-secret.json
+      - run:
+          name: Set Google Cloud target project
+          command: gcloud config set project thepinproject-dbd56
+      - run:
+          name: Authenticate with Google Cloud
+          command: gcloud auth activate-service-account $GCLOUD_SERVICE_EMAIL --key-file ${HOME}/client-secret.json
+      - run:
+          name: Run instrumented test on Firebase Test Lab
+          command: gcloud firebase test android run --type instrumentation --app app/build/outputs/apk/prod/debug/app-mock-debug.apk --test app/build/outputs/apk/androidTest/prod/debug/app-mock-debug-androidTest.apk --device model=sailfish,version=28,locale=en_US,orientation=portrait --timeout 8m
+
       - run:
           name: Build Release
           command: ./gradlew assembleProdRelease
