@@ -1,6 +1,7 @@
 package hu.autsoft.demo
 
 import android.support.annotation.StringRes
+import hu.autsoft.hwsw.mostoha.pin.R
 
 class ClientPinValidator {
 

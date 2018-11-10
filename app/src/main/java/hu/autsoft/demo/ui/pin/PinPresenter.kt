@@ -1,7 +1,7 @@
 package hu.autsoft.demo.ui.pin
 
 import hu.autsoft.demo.ClientPinValidator
-import hu.autsoft.demo.R
+import hu.autsoft.hwsw.mostoha.pin.R
 
 class PinPresenter(private val clientPinValidator: ClientPinValidator, private val pinValidatorApi: PinValidatorApi) {
 

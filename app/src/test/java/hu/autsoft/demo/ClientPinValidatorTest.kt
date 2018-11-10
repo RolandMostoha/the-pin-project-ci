@@ -1,5 +1,6 @@
 package hu.autsoft.demo
 
+import hu.autsoft.hwsw.mostoha.pin.R
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Before

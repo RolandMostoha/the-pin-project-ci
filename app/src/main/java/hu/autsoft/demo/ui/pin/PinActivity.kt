@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity
 import hu.autsoft.demo.ClientPinValidator
 import hu.autsoft.demo.Injection
 import hu.autsoft.demo.MainActivity
-import hu.autsoft.demo.R
+import hu.autsoft.hwsw.mostoha.pin.R
 import kotlinx.android.synthetic.main.activity_pin.*
 import kotlinx.android.synthetic.main.content_pin.*
 
