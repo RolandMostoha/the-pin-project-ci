@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "thepinproject-222215",
+  "private_key_id": "da7add833db60a88e150a74b8d123752e93260d5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQC5Rd3hj2o9dC8X\nFtIYevXk4GqRZw8xnKfwDoXEUTZ6EbJUszJh/VfK5QoA+eFzGKVCBXdLaJbdpiZp\nJcubTw6sXxbIGTMzHLM3LOIgYrUKAAfUaer7E3SFF2oVOs0JuMtrqaVJp9jpvuBo\nbqhJq13dqWwUqjaM7RHigwDGwY2MXQOtFweWtvnxR/N/+cpTs/miPIdGkL4QGjIM\n4gPEjIJWAZodvYZKdsfOnP0oBqlJQ/Lh6JHkb/Jj1B+v7hd1hhlQt8uwmOnPee9K\nGvVtaFcfRs/ypvtpbBIgPRXnr4nDastcufVZmZL5/mTFPXu+qG191B92uoZDhp8a\nqD+KwXWrAgMBAAECggEACa5ZbD5itkhaZ5H1M3tFWwrQ9r0UYarGabhQjBQUTSec\nkml0sgMbccorDicAfVOl2v/PHn0eGQHkEu17KKfmY+JqHdWXQ831nWX2gOu3ewjK\nX/KS6UC4f3XcQLS8XwwtcPhB30nqfzhOoJZbq9HNC1adg6zrQczneNcQlNIrU9C3\nqvMd6BT/PkSgzbKZnAU8gz8oM8r0LJKVgm8rfLyEsVJqasCWegf8hKEGYmjcv90R\nA5XH5vTylOuvdVEbd+qeNKpZR5k7twPkBMigKZrMs9xNWQU9XaqT97d7pQeIHOIt\na/pm9o/wx4nQz632Gucm/nk8RS4iEeVYLwRCQWgIcQKBgQDerEFlNyOvXW5VZdLC\nsWkSwB9okOXHqCQrHjFIfWLroFyVz1/F51ed+2LAJMpPH83toHW8cwUkQeZje7Qx\nIaNp8zeQgt/ZDZ2AUt7qrlNf3D4L3KCzeD4OiqN3p8GUFxWXF5/9VG3FkqhLokpx\nk0/KOjFP6SG3uARoijyjmy1OMQKBgQDVAKBYKeh8+vKLDXOE4LABknyMkQanDR0n\nyTl3EhXu7tMMXf1f6AonRlj/yva+NIngk6hSfbnIDMC9z6NIl4hfDoSIoRHQaWFP\nCDsJa8URE/AeVEB8k7PHYlvhaqOa0HSUIdR88CJ4QkAhnyKZrCsB25i86G6Ws1KD\nYr/Dbod+mwKBgFA4Ck8mcCqrJCaLykPtmgbxQ99t4/nrrywBcovE8DAm03P9A2nO\nkBgQCmFiX6fls1BaMFA1t7J6Mz+/vwi8L5zpzCi5nV8aspUaRciSCONN+uRXFWXS\nebjPZVikDO8G6fZGwpKHKgy1av/kdaE5CtO15zH8sPL4zk3DD1l5e/bhAoGBAIVq\nwQS4K1GtdiK3KDaA7n3tnWoGpR4ZzrtPBVmZ0Hc6zKMgdEaQd1umarS+EtOM4Rf0\nJSiWa7nskwXReztK/zZbR5S1Hw1mFHeGdkQuZt+Nl4fHyiS994vaBicpvpSIIZ1v\nm0MuvsiI5taocOnEt6OQQxmAlVR7uiFlxyvIncIlAn9K3SycLcgxvAXRSC5HIMx7\nxKBa0mr6dA4jLuMxT9QgMEd1t6UUSZNyQvtLfuphFnwioAjqKSLlj9XY/jH5XnJ5\n3czAs38tdDzae9MQI84dVGJ7QJRf/2/Vrrb3GNgsbuGvxdLFU0JoO5AH8rZq8jG/\nZSNK2qzY9xGY7ABe4QsR\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-play-publisher@thepinproject-222215.iam.gserviceaccount.com",
+  "client_id": "115026390950186621039",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-play-publisher%40thepinproject-222215.iam.gserviceaccount.com"
+}
