@@ -56,3 +56,11 @@ jobs:
       - store_artifacts:
                 path: app/build/outputs/apk
                 destination: apks
+
+      # Google Play Publish
+      - run:
+          name: Export Play Publisher Service Key environment variable
+          command: echo 'export PLAY_PUBLISHER_SERVICE_KEY="$PLAY_PUBLISHER_SERVICE_KEY"' >> $BASH_ENV
+      - run:
+          name: Decode Play Publisher Service Key credentials
+          command: echo $PLAY_PUBLISHER_SERVICE_KEY | base64 -di > app/assets/serviceaccounts/thepinproject-google-play-publisher.json
