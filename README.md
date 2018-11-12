@@ -151,6 +151,8 @@ jobs:
 
 > Javítsuk ki a problémát: refaktoráljunk, hogy a ```MockPinValidator``` osztály elérhető legyen a ```main``` könyvtárból is minden konfigurációban!
 
+> Töröljük a ```local.properties``` fájlt és adjuk hozzá a módosítást a ```Git```-hez
+
 > Pusholjuk a változtatást, majd gyönyörködjünk, ahogy kizöldül a build.
 
 > Vizsgáljuk meg a ```Job``` által létrehozott könyvtárakat, riportokat.
@@ -220,6 +222,8 @@ Például:
 ```
 
 > Töltsük ki a **PROJECT_ID**-t és a **GCLOUD_SERVICE_EMAIL**-t
+
+> Az elérhető eszközökről a GCloud command line tool adhat bővebb információt, egy lehetséges device összerendelés táblázat megtalálható: https://firebase.google.com/docs/test-lab/android/command-line
 
 ## Google Play Store publikálás
 
